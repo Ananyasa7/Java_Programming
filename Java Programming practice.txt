@@ -1,0 +1,73 @@
+1] public class Program1 {
+    public static void main(String[] args) {
+    	{for(int i=1;i<=5;i++)
+    	{
+    		System.out.println("HELLO");    	}
+    }
+    }
+}
+
+2]public class Program2 {
+	public static void main(String[] args) {
+    	{for(int i=1;i<=5;i++)
+    	{
+    		System.out.print("*"+" ");    	}
+    }
+    }
+}
+
+3] public class Program3{
+
+   public static void main(String [] args){
+   for(int i=1;i<=5;i++)
+    { for(int j=1;j<=5;j++)
+   {
+   System.out.print("*"+" ");
+   }
+   System.out.println();
+   }
+   }
+   }
+4]  public class Program3 {
+	public static void main(String[] args) {
+		int rows=5;
+    	for(int i=1;i<=rows;i++){
+    		for(int j=1;j<=rows;j++)
+    	{
+    		System.out.print("*"+" ");    	
+    		}
+    
+    	System.out.println();
+    	}
+    }
+	}
+5] public class Program4 {
+	public static void main(String[] args) {
+		int rows=5;
+		int  k=11 ;//k=1;
+    	for(int i=1;i<=rows;i++){
+    		for(int j=1;j<=rows;j++)
+    	{
+    		System.out.print(k+" ");
+    		k++;
+    		}
+    
+    	System.out.println();
+    	}
+    }
+}
+6] public class Program5 {
+	public static void main(String[] args) {
+		int rows=5;
+		int k=65;
+    	for(int i=1;i<=rows;i++){
+    		for(int j=1;j<=rows;j++)
+    	{
+    		System.out.print((char)k+" ");
+    		k++;
+    		}
+    
+    	System.out.println();
+    	}
+    }
+}
